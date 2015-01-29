@@ -8,7 +8,15 @@ YISITE，译为yi和site，yi代表拼音中的“一”，site代表website，�
 
 ---
 ##一、历史版本
+
+
+###0.0.2
+
+1、get方法增加_id的查询支持，只有get支持，参考{ tablename: 'syuser', field: '_id', value: 'id' }
+2、增加“[:now]”特殊处理，当传输的json当中含有“[:now]”，既会替换成服务器的时间，new Date().getTime()
+
 ###0.0.1
+
 1、初次发布。
 
 
